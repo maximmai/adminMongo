@@ -13,8 +13,8 @@ steps:
   - sleep 5 # give docker enough time to start
   - date
   - docker login registry.fastdns.io -u mongohouse -p mongohousep
-  - docker build -t registry.fastdns.io/adminMongo . --no-cache
-  - docker push registry.fastdns.io/adminMongo
+  - docker build -t registry.fastdns.io/adminmongo . --no-cache
+  - docker push registry.fastdns.io/adminmongo
   - date
 
 services:
